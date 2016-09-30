@@ -25,15 +25,22 @@ head{
 .redwords{
     color:#e2574c;
 }
+
 .logo{
     float:left;
-    width:200px
+    width:200px;
+    padding-top:1%;
+    padding-bottom: 1%;
+    padding-left:1%;
 }
 
 .cart{
     float:right;
     width:50px;
     height:50px;
+    padding-right:1%;
+    padding-top:1%;
+    padding-bottom:1%;
 }
 body{
     margin:auto;
