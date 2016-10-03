@@ -1,10 +1,8 @@
+
 html{
     font-size:16px    
 }
-img{
-    max-width: 100%;
-    height: auto;
-}
+
 
 .clearfix:before,
 .clearfix:after {
@@ -13,14 +11,75 @@ img{
    clear: both;
 }
 
+.wrapper {
+    border:10px solid white;
+    display:inline-block;
+    border-radius: 10px;
+    position:relative;
+}
+.emaillabel{
+    background-color: white;
+}
+input
+ {
+    background-color:white;
+    border:0;
+}
+
+button{
+    border:10px #e2574c ;
+    background-color: #e2574c;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    right:0;
+    top: 0;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 .container{
-    margin:0,auto;
-    max-width:1240px;
+    margin:auto;
+    max-width:1440px;
     width:100%;
 }
 
 head{
     font-family: "playfair_displayregular";
+}
+
+header{
+    height:100px;
+}
+
+.mostloveditalic{
+    font-family: "playfair_displayitalic"
+}
+
+.rwbold{
+    font-family: "playfair_displaybold"
+}
+
+.collection{
+    font-size: 1.25rem;
+}
+
+.seasons{
+    font-size: 3rem;
+}
+.oceanheader{
+    font-size: 2rem;
+}
+.stayupdatedspacing{
+    height:10px;
+}
+.textmargin{
+    height:40px;
+}
+.textmarginsignup{
+    height:20px;
 }
 .redwords{
     color:#e2574c;
@@ -32,11 +91,12 @@ head{
     padding-top:1%;
     padding-bottom: 1%;
     padding-left:1%;
+    height: 50px;
 }
 
 .cart{
     float:right;
-    width:50px;
+    width:75px;
     height:50px;
     padding-right:1%;
     padding-top:1%;
@@ -48,13 +108,9 @@ body{
     color: #2d2d2d;
 }
 
-h1 {
-    text-align: center
-}
-
 .bannertext{
     color:white;
-    position:relative;
+    position:absolute;
     width: 100%;
     text-align: center;
     top: 50%;
@@ -62,13 +118,84 @@ h1 {
 }
 
 .herobanner{
-    background: url(assets/images/banner-girl.png) no-repeat center center, url(assets/images/flower-bkgd.jpg);
-    vertical-align: center;
+    background:url(assets/images/banner-girl.png) no-repeat center center, url(assets/images/flower-bkgd.jpg) repeat-x center top;
     height: 550px;
     position:relative;
-    background-size:contain;
-    background-position-y: 75px,0px;
+    background-size: 250px,cover;
+    background-position-y: 60px,0px;
+}
 
+.handcrafted{
+    text-align: center;
+
+}
+
+.handcraftedtext{
+    font-size:1.25rem;
+}
+
+.divider{
+    background-color:#d7d7d7;
+    height: 1px;
+}
+.mostloved{
+    text-align: center;
+    line-height: 200%;
+}
+.mostlovedtext{
+    display: inline-block;
+    font-size: 1.30rem;
+}
+.appareltextspace{
+    line-height: 200%;
+}
+
+.clotheslove div{
+    text-align: center;
+    float:left;
+    width:25%;
+}
+
+.whitedivider{
+    background-color:white;
+    height:12px;
+}
+.oceantext{
+    text-align: center;
+    color:white;
+    position:relative;
+    width: 100%;
+    top:20%;
+}
+
+.oceanwave{
+    background-image:url(assets/images/wave-bkgd.jpg);
+    height: 350px;
+    background-repeat:no-repeat;
+    background-position:center bottom;
+}
+.youremail{
+  width:100%;
+}
+.sociallist{
+    float:right;
+}
+
+.footermargin{
+    height: 50px;
+    width:100%;
+}
+.footertext{
+    float: left;
+    transform: translateX(80px)
+}
+
+.phonenumbertext{
+    color:white;
+}
+
+.emailtext {
+    text-decoration: underline;
 }
 
 .sociallist{
@@ -76,57 +203,24 @@ h1 {
     text-decoration:none;
     list-style:none
 }
-
+.sociallist a{
+    text-decoration: none;
+}
 .sociallist a:hover{
-    color:red;
-    text-decoration:underline;
-}
-.divider{
-    background-color:#d7d7d7;
-    height: 2px;
-}
-.mostloved{
-    text-align: center;
-}
-
-.clotheslove div{
-    text-align: center;
-    float:left;
-    overflow:hidden;
-    width:25%;
-}
-
-.handcrafted{
-    text-align: center;
-    height:183.33px;
+    color:#e2574c;
 
 }
-
-.whitedivider{
-    background-color:white;
-    height:6px;
-}
-.oceantext{
-    text-align: center;
+.apparelspacing {
+    line-height: 150%;
     color:white;
-    position:relative;
-    width: 100%;
-    top:10%;
+}
+.footertextspace{
+    height:20px;
 }
 
-.oceanwave{
-    background-image:url(assets/images/wave-bkgd.jpg);
-    height: 275px;
-    background-repeat:no-repeat;
-    background-position:center bottom;
-}
-
-.sociallist{
-    float:right;
-}
-
-.footertext{
-    float: left;
+.linklist{
+    line-height: 270%;
+    transform:translate(-150px,-11px);
 }
 
 .locationtext{
