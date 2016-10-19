@@ -158,6 +158,10 @@ img{
     width:100%;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 head{
     font-family: "playfair_displayregular";
 }
