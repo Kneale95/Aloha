@@ -1,5 +1,2 @@
 # Aloha
-This is the Aloha project. My first project of the web development program at RED Academy. It is a basic website containing just html
-and css. With it I learned and used things such as floats, text styles, display, custom fonts, gradiants, and so much more. With it
-being my first project for web development it was pretty tough, there was much trial and error and lots of googleing but in the end I have
-a product im proud of.
+This is the second part of the aloha project. This project was both fun and terrible. It was fun to work on but my work made the crunch on this real "fun". It is far from perfect but its as close as I got. I did have some struggles for example, the slider. I never ended up getting it to fit the right space for tablet and desktop. It took a long time to implement. Another thing was the positioning which I still dont have it as great as I would like. 
