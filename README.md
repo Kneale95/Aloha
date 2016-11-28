@@ -1,2 +1,11 @@
 # Aloha
-This is the second part of the aloha project. This project was both fun and terrible. It was fun to work on but my work made the crunch on this real "fun". It is far from perfect but its as close as I got. I did have some struggles for example, the slider. I never ended up getting it to fit the right space for tablet and desktop. It took a long time to implement. Another thing was the positioning which I still dont have it as great as I would like. 
+![Alt text](http://i.imgur.com/CVN1WWR.png "Aloha")
+
+<p>Aloha is a school project for REDAcademy. It is my very first web development project.</p>
+
+<h3> This project uses </h3>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JQuery</li>
+</ul>
